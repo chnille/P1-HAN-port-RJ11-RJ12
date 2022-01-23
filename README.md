@@ -5,7 +5,7 @@ Cable FTDI FR232R USB TTL 5 V for RJ11/RJ12
 https://www.amazon.se/Domoticz-Raspberry-FR232R-Kaifa-Kamstrup/dp/B07JGKJ6SM/ref=sr_1_2?crid=2DV0WUX4EYPMY&keywords=kamstrup+162+rj11&qid=1642949662&sprefix=kamstrup+162+rj11%2Caps%2C64&sr=8-2
 
 Add hanporten.service to /lib/systemd/system/
-Edit hanporten.py with your user/passw for the mqtt broker. Change mqtt topic according to your setup.
+Edit hanporten.py with your user/passw and ip/address for the mqtt broker. Change mqtt topic according to your setup.
 place python scrip hanporten.py in /usr/local/bin/
 Activate service with 
 sudo systemctl daemon-reload
