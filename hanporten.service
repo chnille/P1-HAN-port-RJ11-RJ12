@@ -5,6 +5,8 @@ Description=Hanporten service daemon
 [Service]
 ExecStart=/usr/local/bin/hanporten.py
 User=user  #update with user to run this service
+Restart=always
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
